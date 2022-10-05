@@ -11,7 +11,7 @@ import SwiftUI
 struct Test_SwiftUI_LayoutFundamentals_LazyVHStackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ColorSelectionView()
         }
     }
 }

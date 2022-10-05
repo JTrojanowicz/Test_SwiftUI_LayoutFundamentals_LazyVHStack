@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		EFE682DB28ED894400883B42 /* Test_SwiftUI_LayoutFundamentals_LazyVHStackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE682DA28ED894400883B42 /* Test_SwiftUI_LayoutFundamentals_LazyVHStackApp.swift */; };
-		EFE682DD28ED894400883B42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE682DC28ED894400883B42 /* ContentView.swift */; };
+		EFE682DD28ED894400883B42 /* ColorSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE682DC28ED894400883B42 /* ColorSelectionView.swift */; };
 		EFE682DF28ED894600883B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE682DE28ED894600883B42 /* Assets.xcassets */; };
 		EFE682E228ED894600883B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE682E128ED894600883B42 /* Preview Assets.xcassets */; };
+		EFE682E928ED911000883B42 /* AnotherLazyVHStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE682E828ED911000883B42 /* AnotherLazyVHStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFE682D728ED894400883B42 /* Test_SwiftUI_LayoutFundamentals_LazyVHStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_SwiftUI_LayoutFundamentals_LazyVHStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE682DA28ED894400883B42 /* Test_SwiftUI_LayoutFundamentals_LazyVHStackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_SwiftUI_LayoutFundamentals_LazyVHStackApp.swift; sourceTree = "<group>"; };
-		EFE682DC28ED894400883B42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFE682DC28ED894400883B42 /* ColorSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectionView.swift; sourceTree = "<group>"; };
 		EFE682DE28ED894600883B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFE682E128ED894600883B42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFE682E828ED911000883B42 /* AnotherLazyVHStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherLazyVHStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				EFE682DA28ED894400883B42 /* Test_SwiftUI_LayoutFundamentals_LazyVHStackApp.swift */,
-				EFE682DC28ED894400883B42 /* ContentView.swift */,
+				EFE682DC28ED894400883B42 /* ColorSelectionView.swift */,
+				EFE682E828ED911000883B42 /* AnotherLazyVHStackView.swift */,
 				EFE682DE28ED894600883B42 /* Assets.xcassets */,
 				EFE682E028ED894600883B42 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE682DD28ED894400883B42 /* ContentView.swift in Sources */,
+				EFE682DD28ED894400883B42 /* ColorSelectionView.swift in Sources */,
+				EFE682E928ED911000883B42 /* AnotherLazyVHStackView.swift in Sources */,
 				EFE682DB28ED894400883B42 /* Test_SwiftUI_LayoutFundamentals_LazyVHStackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
